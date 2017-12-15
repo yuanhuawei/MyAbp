@@ -11,7 +11,7 @@
     <div class="body">
         <form id="RegisterForm" asp-action="Register" method="POST">
             <h4 class="text-center">@L("Register")</h4>
-            
+
             @Html.AntiForgeryToken()
 
             @if (@ViewBag.ErrorMessage != null)
@@ -26,21 +26,22 @@
 
             <div class="form-group form-float">
                 <div class="form-line">
-                    <input type="text" class="form-control" name="Name" value="@Model.Name" required maxlength="@AbpUserBase.MaxNameLength">
+                    <input type="text" class="form-control" name="Name" value="@Model.Name" required autofocus maxlength="@AbpUserBase.MaxNameLength">
                     <label class="form-label">@L("Name")</label>
                 </div>
             </div>
 
-            <div class="form-group form-float">
-                <div class="form-line">
-                    <input type="text" class="form-control" name="Surname" value="@Model.Surname" required maxlength="@AbpUserBase.MaxSurnameLength">
-                    <label class="form-label">@L("Surname")</label>
-                </div>
-            </div>
+
+            @*<div class="form-group form-float">
+                    <div class="form-line">
+                        <input type="text" class="form-control" name="Surname" value="@Model.Surname" required maxlength="@AbpUserBase.MaxSurnameLength">
+                        <label class="form-label">@L("Surname")</label>
+                    </div>
+                </div>*@
 
             <div class="form-group form-float">
                 <div class="form-line">
-                    <input type="email" class="form-control" name="EmailAddress" value="@Model.EmailAddress" required maxlength="@AbpUserBase.MaxEmailAddressLength">
+                    <input type="email" class="form-control" name="EmailAddress" value="@Model.EmailAddress" maxlength="@AbpUserBase.MaxEmailAddressLength">
                     <label class="form-label">@L("EmailAddress")</label>
                 </div>
             </div>

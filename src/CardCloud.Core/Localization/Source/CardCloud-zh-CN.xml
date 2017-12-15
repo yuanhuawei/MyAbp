@@ -16,18 +16,18 @@
     <text name="UserLockedOutMessage">该用户帐户已经被锁定.请稍后重试.</text>
     <text name="PleaseEnterLoginInformation" value="请输入登录信息" />
     <text name="TenancyName" value="租户名称" />
-    <text name="UserNameOrEmail" value="用户名或邮箱地址" />
+    <text name="UserNameOrEmail" value="手机号码或邮箱地址" />
     <text name="Password" value="密码" />
     <text name="RememberMe" value="记住我" />
     <text name="LogIn" value="登录" />
 
     <text name="LoginFailed" value="登录失败!" />
 
-    <text name="NameSurname" value="名 姓" />
-    <text name="UserName" value="用户名" />
-    <text name="Name" value="名" />
+    <text name="NameSurname" value="姓名" />
+    <text name="UserName" value="手机号码" />
+    <text name="Name" value="姓名" />
     <text name="Surname" value="姓" />
-    <text name="EmailAddress" value="邮箱地址" />
+    <text name="EmailAddress" value="邮箱地址（可选）" />
 
     <text name="Tenants" value="租户" />
     <text name="SavedSuccessfully" value="保存成功" />
@@ -55,5 +55,6 @@
     <text name="Yes" value="是" />
     <text name="No" value="否" />
     <text name="Optional" value="可选的" />
+    <text name="Back">返回</text>
   </texts>
 </localizationDictionary>
