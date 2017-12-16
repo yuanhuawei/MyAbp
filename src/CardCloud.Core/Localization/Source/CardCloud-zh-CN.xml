@@ -56,5 +56,10 @@
     <text name="No" value="否" />
     <text name="Optional" value="可选的" />
     <text name="Back">返回</text>
+
+    <text name="ChangePassword">修改密码</text>
+ 
+    <text name="SKINS">皮肤</text>
+    <text name="SETTINGS">设置</text>
   </texts>
 </localizationDictionary>

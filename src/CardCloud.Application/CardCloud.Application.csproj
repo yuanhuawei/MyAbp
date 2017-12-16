@@ -43,6 +43,9 @@
       <HintPath>..\packages\Abp.AutoMapper.3.2.4\lib\netstandard2.0\Abp.AutoMapper.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Abp.Web.SignalR">
+      <HintPath>..\CardCloud.Web\Bin\Abp.Web.SignalR.dll</HintPath>
+    </Reference>
     <Reference Include="Abp.Zero, Version=3.2.4.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Abp.Zero.3.2.4\lib\net461\Abp.Zero.dll</HintPath>
       <Private>False</Private>

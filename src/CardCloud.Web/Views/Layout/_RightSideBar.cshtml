@@ -2,8 +2,9 @@
 @model CardCloud.Web.Models.Layout.RightSideBarViewModel
 <aside id="rightsidebar" class="right-sidebar">
     <ul class="nav nav-tabs tab-nav-right" role="tablist">
-        <li role="presentation" class="active"><a href="#skins" data-toggle="tab">SKINS</a></li>
-        <li role="presentation"><a href="#settings" data-toggle="tab">SETTINGS</a></li>
+        <li role="presentation" class="active"><a href="#skins" data-toggle="tab">@L("SKINS")</a></li>
+        <li role="presentation"><a href="#settings" data-toggle="tab">@L("SETTINGS")</a></li>
+
     </ul>
     <div class="tab-content">
         <div role="tabpanel" class="tab-pane fade in active in active" id="skins">
@@ -64,7 +65,6 @@
                         </div>
                     </li>
                 </ul>
-
                 <p style="color: red;">This settings are just for demonstration!</p>
             </div>
         </div>

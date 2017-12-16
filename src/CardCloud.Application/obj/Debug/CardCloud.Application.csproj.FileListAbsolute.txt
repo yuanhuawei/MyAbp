@@ -378,3 +378,6 @@ E:\Other\MyAbp\src\CardCloud.Application\obj\Debug\CardCloud.Application.csprojR
 E:\Other\MyAbp\src\CardCloud.Application\obj\Debug\CardCloud.Application.csproj.CoreCompileInputs.cache
 E:\Other\MyAbp\src\CardCloud.Application\obj\Debug\CardCloud.Application.dll
 E:\Other\MyAbp\src\CardCloud.Application\obj\Debug\CardCloud.Application.pdb
+E:\Other\MyAbp\src\CardCloud.Application\bin\Debug\Abp.Web.SignalR.dll
+E:\Other\MyAbp\src\CardCloud.Application\bin\Debug\Abp.Web.SignalR.pdb
+E:\Other\MyAbp\src\CardCloud.Application\bin\Debug\Abp.Web.SignalR.xml
